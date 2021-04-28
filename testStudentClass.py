@@ -1,3 +1,9 @@
+
+
+"""Sample object template made for testing files
+
+"""
+
 class Student:
     def __init__(self, name, age, studNumber):
         self.name = name

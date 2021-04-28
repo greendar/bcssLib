@@ -37,7 +37,7 @@ def returnChoiceFromListOfObjects(objListIn):
 
 
 if __name__ == "__main__":
-    from delMe import *
+    from testStudentClass import *
     a = Student('Albert', 17, 2345)
     b = Student('Betty', 15, 5467)
     c = Student('Charles', 14, 6587)
