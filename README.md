@@ -8,6 +8,8 @@ def returnChoiceFromList(listIn):
     We are assuming that the list is made up of strings.
     Note that to account for 0 indexing we are subtracting 1 when we assign the
     variable choice
+    
+    return choice, listIn
     '''
     
     
@@ -16,5 +18,7 @@ def returnChoiceFromListOfObjects(objListIn):
     list of objects with the choice removed.
 
     It is assumed that the objects have a name attribute. 
+    
+    return choiceName, objListIn
     '''
 ```
